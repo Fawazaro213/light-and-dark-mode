@@ -10,6 +10,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
     <!-- Navigation -->
     <nav id="nav">
         <a href="#home">HOME</a>
@@ -19,7 +31,7 @@
     </nav>
     <!-- Homepage -->
     <section id="home">
-        <div class="title-group">
+        <div class="title-group" data-aos="fade-up">
             <h1>Light Dark Mode</h1>
             <h2>Welcome to my project</h2>
         </div>
